@@ -24,6 +24,7 @@
 		25D0A1D11E3E245E007BC9BF /* libopencv_superres.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C11E3E245E007BC9BF /* libopencv_superres.3.2.0.dylib */; };
 		25D0A1D21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib */; };
 		25D0A1D31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */; };
+		25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,9 @@
 		25D0A1C11E3E245E007BC9BF /* libopencv_superres.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_superres.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_superres.3.2.0.dylib; sourceTree = "<group>"; };
 		25D0A1C21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videoio.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_videoio.3.2.0.dylib; sourceTree = "<group>"; };
 		25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_highgui.3.2.0.dylib; sourceTree = "<group>"; };
+		25D0A1D41E3E2870007BC9BF /* namei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = namei.jpg; path = ../../../../Downloads/namei.jpg; sourceTree = "<group>"; };
+		25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = createAlphaMat.cpp; sourceTree = "<group>"; };
+		25D0A1D71E3E29D8007BC9BF /* createAlphaMat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createAlphaMat.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 		25D0A1AB1E3E23CD007BC9BF /* opencv3 */ = {
 			isa = PBXGroup;
 			children = (
+				25D0A1D51E3E299E007BC9BF /* 3 */,
+				25D0A1D41E3E2870007BC9BF /* namei.jpg */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
 			);
 			path = opencv3;
@@ -132,6 +138,15 @@
 				25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */,
 			);
 			name = opencv_frame;
+			sourceTree = "<group>";
+		};
+		25D0A1D51E3E299E007BC9BF /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */,
+				25D0A1D71E3E29D8007BC9BF /* createAlphaMat.h */,
+			);
+			name = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
+				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,82 +303,7 @@
 					/usrlocal/lib,
 					/usr/local/lib,
 				);
-				OTHER_LDFLAGS = (
-					"-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"
-",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -380,82 +321,7 @@
 					/usrlocal/lib,
 					/usr/local/lib,
 				);
-				OTHER_LDFLAGS = (
-					"-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"\n-lopencv_calib3d",
-					"-lopencv_core",
-					"-lopencv_features2d",
-					"-lopencv_flann",
-					"-lopencv_highgui",
-					"-lopencv_imgcodecs",
-					"-lopencv_imgproc",
-					"-lopencv_ml",
-					"-lopencv_objdetect",
-					"-lopencv_photo",
-					"-lopencv_shape",
-					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
-					"-lopencv_videostab",
-					"-lopencv_xfeatures2d",
-					"
-",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
