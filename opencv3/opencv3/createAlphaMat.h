@@ -6,12 +6,10 @@
 //  Copyright (c) 2017年 何琨. All rights reserved.
 //
 
-#include <opencv2/opencv.hpp>
-#include <vector>
+#include "include.h"
 
 using namespace cv;
 using namespace std;
 
 void createAlphaMat(Mat &mat);
-
-
+int showAlphaMat();

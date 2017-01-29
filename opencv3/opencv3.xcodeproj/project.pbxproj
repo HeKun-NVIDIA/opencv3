@@ -25,6 +25,7 @@
 		25D0A1D21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib */; };
 		25D0A1D31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */; };
 		25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */; };
+		25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,9 +59,14 @@
 		25D0A1C11E3E245E007BC9BF /* libopencv_superres.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_superres.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_superres.3.2.0.dylib; sourceTree = "<group>"; };
 		25D0A1C21E3E245E007BC9BF /* libopencv_videoio.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videoio.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_videoio.3.2.0.dylib; sourceTree = "<group>"; };
 		25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_highgui.3.2.0.dylib; sourceTree = "<group>"; };
-		25D0A1D41E3E2870007BC9BF /* namei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = namei.jpg; path = ../../../../Downloads/namei.jpg; sourceTree = "<group>"; };
 		25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = createAlphaMat.cpp; sourceTree = "<group>"; };
 		25D0A1D71E3E29D8007BC9BF /* createAlphaMat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createAlphaMat.h; sourceTree = "<group>"; };
+		25D0A1DA1E3E3618007BC9BF /* include.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = include.h; sourceTree = "<group>"; };
+		25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = showImage.cpp; sourceTree = "<group>"; };
+		25D0A1DC1E3E37BF007BC9BF /* showImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showImage.h; sourceTree = "<group>"; };
+		25D0A1E01E3E3A36007BC9BF /* dota2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dota2.jpg; sourceTree = "<group>"; };
+		25D0A1E11E3E3A36007BC9BF /* namei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namei.jpg; sourceTree = "<group>"; };
+		25D0A1E21E3E3A36007BC9BF /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				25D0A1D51E3E299E007BC9BF /* 3 */,
-				25D0A1D41E3E2870007BC9BF /* namei.jpg */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
+				25D0A1E21E3E3A36007BC9BF /* logo.jpg */,
+				25D0A1E01E3E3A36007BC9BF /* dota2.jpg */,
+				25D0A1E11E3E3A36007BC9BF /* namei.jpg */,
+				25D0A1DA1E3E3618007BC9BF /* include.h */,
 			);
 			path = opencv3;
 			sourceTree = "<group>";
@@ -145,6 +154,8 @@
 			children = (
 				25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */,
 				25D0A1D71E3E29D8007BC9BF /* createAlphaMat.h */,
+				25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */,
+				25D0A1DC1E3E37BF007BC9BF /* showImage.h */,
 			);
 			name = 3;
 			sourceTree = "<group>";
@@ -206,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
+				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
