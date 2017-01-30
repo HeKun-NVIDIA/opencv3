@@ -33,7 +33,7 @@ int showImage()
     //方法1
     imageROI = image(Rect(800,300,logo.cols,logo.rows));
     //方法2
-    imageROI = image(Range(300,300+logo.rows),Range(800, 800+logo.cols));
+    imageROI = image(Range(image.rows-300,image.rows-300+logo.rows),Range(image.cols-300, image.cols-300+logo.cols));
     //将logo加到原图上
     addWeighted(imageROI, 0.5, logo, 0.3, 0, imageROI);
     //显示结果

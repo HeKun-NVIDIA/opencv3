@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */; };
 		25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1AC1E3E23CD007BC9BF /* main.cpp */; };
 		25D0A1C41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */; };
 		25D0A1C51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib */; };
@@ -26,6 +27,7 @@
 		25D0A1D31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1C31E3E245E007BC9BF /* libopencv_highgui.3.2.0.dylib */; };
 		25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */; };
 		25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */; };
+		25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1E31E3EEE79007BC9BF /* trackBar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		255716581E3EFDA2007195BB /* qiaodan1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiaodan1.jpeg; sourceTree = "<group>"; };
+		255716591E3EFDAA007195BB /* qiaodan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiaodan2.jpg; sourceTree = "<group>"; };
+		2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouseCallBack.cpp; sourceTree = "<group>"; };
+		2557165B1E3EFFF7007195BB /* mouseCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouseCallBack.h; sourceTree = "<group>"; };
 		25D0A1A91E3E23CD007BC9BF /* opencv3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv3; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0A1AC1E3E23CD007BC9BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_imgproc.3.2.0.dylib; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 		25D0A1E01E3E3A36007BC9BF /* dota2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dota2.jpg; sourceTree = "<group>"; };
 		25D0A1E11E3E3A36007BC9BF /* namei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namei.jpg; sourceTree = "<group>"; };
 		25D0A1E21E3E3A36007BC9BF /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		25D0A1E31E3EEE79007BC9BF /* trackBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trackBar.cpp; sourceTree = "<group>"; };
+		25D0A1E41E3EEE79007BC9BF /* trackBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,8 @@
 				25D0A1D51E3E299E007BC9BF /* 3 */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
 				25D0A1E21E3E3A36007BC9BF /* logo.jpg */,
+				255716591E3EFDAA007195BB /* qiaodan2.jpg */,
+				255716581E3EFDA2007195BB /* qiaodan1.jpeg */,
 				25D0A1E01E3E3A36007BC9BF /* dota2.jpg */,
 				25D0A1E11E3E3A36007BC9BF /* namei.jpg */,
 				25D0A1DA1E3E3618007BC9BF /* include.h */,
@@ -156,6 +166,10 @@
 				25D0A1D71E3E29D8007BC9BF /* createAlphaMat.h */,
 				25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */,
 				25D0A1DC1E3E37BF007BC9BF /* showImage.h */,
+				25D0A1E31E3EEE79007BC9BF /* trackBar.cpp */,
+				25D0A1E41E3EEE79007BC9BF /* trackBar.h */,
+				2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */,
+				2557165B1E3EFFF7007195BB /* mouseCallBack.h */,
 			);
 			name = 3;
 			sourceTree = "<group>";
@@ -219,6 +233,8 @@
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
 				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
+				25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */,
+				2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +373,7 @@
 				25D0A1B21E3E23CD007BC9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

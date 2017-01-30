@@ -10,6 +10,8 @@
 #include <vector>
 #include "createAlphaMat.h"
 #include "showImage.h"
+#include "trackBar.h"
+#include "mouseCallBack.h"
 int main(int argc, const char * argv[]) {
-    showImage();
+    mousecallback();
 }
