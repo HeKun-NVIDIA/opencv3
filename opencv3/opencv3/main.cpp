@@ -12,6 +12,7 @@
 #include "showImage.h"
 #include "trackBar.h"
 #include "mouseCallBack.h"
+#include "matFoundation.h"
 int main(int argc, const char * argv[]) {
-    mousecallback();
+    matFoundation();
 }

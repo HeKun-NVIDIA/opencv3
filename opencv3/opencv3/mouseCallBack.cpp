@@ -85,6 +85,7 @@ void on_MouseHandle(int event,int x, int y, int flags, void* param)
 }
 void DrawRectangle(cv::Mat& img, cv::Rect box)
 {
+    
     rectangle(img, box.tl(), box.br(), Scalar(g_rng.uniform(0, 255),g_rng.uniform(0, 255),g_rng.uniform(0, 255)));
 }
 

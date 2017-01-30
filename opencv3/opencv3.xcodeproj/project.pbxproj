@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */; };
+		255716601E3F68A3007195BB /* matFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165E1E3F68A3007195BB /* matFoundation.cpp */; };
 		25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1AC1E3E23CD007BC9BF /* main.cpp */; };
 		25D0A1C41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */; };
 		25D0A1C51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib */; };
@@ -47,6 +48,8 @@
 		255716591E3EFDAA007195BB /* qiaodan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiaodan2.jpg; sourceTree = "<group>"; };
 		2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouseCallBack.cpp; sourceTree = "<group>"; };
 		2557165B1E3EFFF7007195BB /* mouseCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouseCallBack.h; sourceTree = "<group>"; };
+		2557165E1E3F68A3007195BB /* matFoundation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matFoundation.cpp; sourceTree = "<group>"; };
+		2557165F1E3F68A3007195BB /* matFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matFoundation.h; sourceTree = "<group>"; };
 		25D0A1A91E3E23CD007BC9BF /* opencv3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv3; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0A1AC1E3E23CD007BC9BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_imgproc.3.2.0.dylib; sourceTree = "<group>"; };
@@ -104,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2557165D1E3F683C007195BB /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				2557165E1E3F68A3007195BB /* matFoundation.cpp */,
+				2557165F1E3F68A3007195BB /* matFoundation.h */,
+			);
+			name = 4;
+			sourceTree = "<group>";
+		};
 		25D0A1A01E3E23CD007BC9BF = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +136,7 @@
 		25D0A1AB1E3E23CD007BC9BF /* opencv3 */ = {
 			isa = PBXGroup;
 			children = (
+				2557165D1E3F683C007195BB /* 4 */,
 				25D0A1D51E3E299E007BC9BF /* 3 */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
 				25D0A1E21E3E3A36007BC9BF /* logo.jpg */,
@@ -233,6 +246,7 @@
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
 				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
+				255716601E3F68A3007195BB /* matFoundation.cpp in Sources */,
 				25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */,
 				2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */,
 			);
