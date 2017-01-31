@@ -17,5 +17,6 @@
 
 void colorReduce1(Mat& inputImage, Mat& outputImage, int div);//指针
 void colorReduce2(Mat& inputImage, Mat& outputImage, int div);//迭代器
+void colorReduce3(Mat& inputImage, Mat& outputImage, int div);
 int main1();
 //const cv::String position ="/Users/FEGTT/Documents/opencv3/opencv3/opencv3/";

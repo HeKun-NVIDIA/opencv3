@@ -10,6 +10,8 @@
 		2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */; };
 		255716601E3F68A3007195BB /* matFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165E1E3F68A3007195BB /* matFoundation.cpp */; };
 		255716641E401872007195BB /* colorReduce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255716621E401872007195BB /* colorReduce.cpp */; };
+		255716671E40CC41007195BB /* imageROI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255716651E40CC41007195BB /* imageROI.cpp */; };
+		2557166A1E40DB65007195BB /* ROI_LinearBlending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255716681E40DB65007195BB /* ROI_LinearBlending.cpp */; };
 		25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1AC1E3E23CD007BC9BF /* main.cpp */; };
 		25D0A1C41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */; };
 		25D0A1C51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib */; };
@@ -53,6 +55,12 @@
 		2557165F1E3F68A3007195BB /* matFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matFoundation.h; sourceTree = "<group>"; };
 		255716621E401872007195BB /* colorReduce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorReduce.cpp; sourceTree = "<group>"; };
 		255716631E401872007195BB /* colorReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorReduce.h; sourceTree = "<group>"; };
+		255716651E40CC41007195BB /* imageROI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imageROI.cpp; sourceTree = "<group>"; };
+		255716661E40CC41007195BB /* imageROI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageROI.h; sourceTree = "<group>"; };
+		255716681E40DB65007195BB /* ROI_LinearBlending.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ROI_LinearBlending.cpp; sourceTree = "<group>"; };
+		255716691E40DB65007195BB /* ROI_LinearBlending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROI_LinearBlending.h; sourceTree = "<group>"; };
+		2557166B1E40DE7E007195BB /* shuidi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuidi.jpeg; sourceTree = "<group>"; };
+		2557166C1E40DE7E007195BB /* xiaocao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaocao.jpeg; sourceTree = "<group>"; };
 		25D0A1A91E3E23CD007BC9BF /* opencv3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv3; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0A1AC1E3E23CD007BC9BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_imgproc.3.2.0.dylib; sourceTree = "<group>"; };
@@ -124,6 +132,10 @@
 			children = (
 				255716621E401872007195BB /* colorReduce.cpp */,
 				255716631E401872007195BB /* colorReduce.h */,
+				255716651E40CC41007195BB /* imageROI.cpp */,
+				255716661E40CC41007195BB /* imageROI.h */,
+				255716681E40DB65007195BB /* ROI_LinearBlending.cpp */,
+				255716691E40DB65007195BB /* ROI_LinearBlending.h */,
 			);
 			name = 5;
 			sourceTree = "<group>";
@@ -152,6 +164,8 @@
 				2557165D1E3F683C007195BB /* 4 */,
 				25D0A1D51E3E299E007BC9BF /* 3 */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
+				2557166B1E40DE7E007195BB /* shuidi.jpeg */,
+				2557166C1E40DE7E007195BB /* xiaocao.jpeg */,
 				25D0A1E21E3E3A36007BC9BF /* logo.jpg */,
 				255716591E3EFDAA007195BB /* qiaodan2.jpg */,
 				255716581E3EFDA2007195BB /* qiaodan1.jpeg */,
@@ -258,9 +272,11 @@
 			files = (
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
 				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
+				255716671E40CC41007195BB /* imageROI.cpp in Sources */,
 				255716641E401872007195BB /* colorReduce.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
 				255716601E3F68A3007195BB /* matFoundation.cpp in Sources */,
+				2557166A1E40DB65007195BB /* ROI_LinearBlending.cpp in Sources */,
 				25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */,
 				2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */,
 			);

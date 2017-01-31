@@ -14,6 +14,8 @@
 #include "mouseCallBack.h"
 #include "matFoundation.h"
 #include "colorReduce.h"
+#include "imageROI.h"
+#include "ROI_LinearBlending.h"
 int main(int argc, const char * argv[]) {
-    main1();
+    ROI_LinearBlending();
 }
