@@ -9,6 +9,7 @@
 #include "matFoundation.h"
 int matFoundation()
 {
+    double time0 = static_cast<double>(getTickCount());
     //显示创建Mat对象的几种方法
     //第一种
     Mat M(20,20,CV_8UC3,Scalar(0,125,255));//CV_[the number of bits per item][Signed or Unsigned]C[The channel number]
@@ -39,5 +40,7 @@ int matFoundation()
         points[i] = Point2f((float)(i*5),(float)(i%7));
     }
     cout << "二维点向量 points： "<<points<<";";
+    time0 = ((double)getTickCount()-time0)/getTickFrequency();
+    cout << "运行时间为： " << time0<< " 秒"<<endl;
     return 0;
 }

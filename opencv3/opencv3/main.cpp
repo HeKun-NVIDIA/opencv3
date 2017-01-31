@@ -13,6 +13,7 @@
 #include "trackBar.h"
 #include "mouseCallBack.h"
 #include "matFoundation.h"
+#include "colorReduce.h"
 int main(int argc, const char * argv[]) {
-    matFoundation();
+    main1();
 }

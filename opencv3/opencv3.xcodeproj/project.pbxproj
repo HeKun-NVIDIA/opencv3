@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2557165C1E3EFFF7007195BB /* mouseCallBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165A1E3EFFF7007195BB /* mouseCallBack.cpp */; };
 		255716601E3F68A3007195BB /* matFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2557165E1E3F68A3007195BB /* matFoundation.cpp */; };
+		255716641E401872007195BB /* colorReduce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255716621E401872007195BB /* colorReduce.cpp */; };
 		25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1AC1E3E23CD007BC9BF /* main.cpp */; };
 		25D0A1C41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */; };
 		25D0A1C51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib */; };
@@ -50,6 +51,8 @@
 		2557165B1E3EFFF7007195BB /* mouseCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouseCallBack.h; sourceTree = "<group>"; };
 		2557165E1E3F68A3007195BB /* matFoundation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matFoundation.cpp; sourceTree = "<group>"; };
 		2557165F1E3F68A3007195BB /* matFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matFoundation.h; sourceTree = "<group>"; };
+		255716621E401872007195BB /* colorReduce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorReduce.cpp; sourceTree = "<group>"; };
+		255716631E401872007195BB /* colorReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorReduce.h; sourceTree = "<group>"; };
 		25D0A1A91E3E23CD007BC9BF /* opencv3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv3; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0A1AC1E3E23CD007BC9BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_imgproc.3.2.0.dylib; sourceTree = "<group>"; };
@@ -116,6 +119,15 @@
 			name = 4;
 			sourceTree = "<group>";
 		};
+		255716611E401847007195BB /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				255716621E401872007195BB /* colorReduce.cpp */,
+				255716631E401872007195BB /* colorReduce.h */,
+			);
+			name = 5;
+			sourceTree = "<group>";
+		};
 		25D0A1A01E3E23CD007BC9BF = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 		25D0A1AB1E3E23CD007BC9BF /* opencv3 */ = {
 			isa = PBXGroup;
 			children = (
+				255716611E401847007195BB /* 5 */,
 				2557165D1E3F683C007195BB /* 4 */,
 				25D0A1D51E3E299E007BC9BF /* 3 */,
 				25D0A1AC1E3E23CD007BC9BF /* main.cpp */,
@@ -245,6 +258,7 @@
 			files = (
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
 				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
+				255716641E401872007195BB /* colorReduce.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
 				255716601E3F68A3007195BB /* matFoundation.cpp in Sources */,
 				25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */,
