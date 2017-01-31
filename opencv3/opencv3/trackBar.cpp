@@ -5,7 +5,7 @@
 //  Created by 何琨 on 17/1/30.
 //  Copyright (c) 2017年 何琨. All rights reserved.
 //
-
+//
 #include "trackBar.h"
 
 //全局变量声明
