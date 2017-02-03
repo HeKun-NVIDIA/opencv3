@@ -16,6 +16,8 @@
 #include "colorReduce.h"
 #include "imageROI.h"
 #include "ROI_LinearBlending.h"
+#include "colorSplit.h"
+#include "contrastAndBright.h"
 int main(int argc, const char * argv[]) {
-    ROI_LinearBlending();
+    contrastAndBright();
 }
