@@ -19,6 +19,7 @@
 #include "colorSplit.h"
 #include "contrastAndBright.h"
 #include "imgproc.h"
+#include "imgproc2.h"
 int main(int argc, const char * argv[]) {
-    test();
+    imgproc2();
 }

@@ -35,6 +35,7 @@
 		25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1D61E3E29D8007BC9BF /* createAlphaMat.cpp */; };
 		25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1DB1E3E37BF007BC9BF /* showImage.cpp */; };
 		25D0A1E51E3EEE79007BC9BF /* trackBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1E31E3EEE79007BC9BF /* trackBar.cpp */; };
+		25D242E61E45D59D00B8F401 /* imgproc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D242E41E45D59D00B8F401 /* imgproc2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,6 +99,8 @@
 		25D0A1E21E3E3A36007BC9BF /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		25D0A1E31E3EEE79007BC9BF /* trackBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trackBar.cpp; sourceTree = "<group>"; };
 		25D0A1E41E3EEE79007BC9BF /* trackBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackBar.h; sourceTree = "<group>"; };
+		25D242E41E45D59D00B8F401 /* imgproc2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgproc2.cpp; sourceTree = "<group>"; };
+		25D242E51E45D59D00B8F401 /* imgproc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgproc2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			children = (
 				25CCBC791E4560430010BA01 /* imgproc.cpp */,
 				25CCBC7A1E4560430010BA01 /* imgproc.h */,
+				25D242E41E45D59D00B8F401 /* imgproc2.cpp */,
+				25D242E51E45D59D00B8F401 /* imgproc2.h */,
 			);
 			name = 6;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			files = (
 				25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */,
 				25D0A1DD1E3E37BF007BC9BF /* showImage.cpp in Sources */,
+				25D242E61E45D59D00B8F401 /* imgproc2.cpp in Sources */,
 				25CCBC711E41645E0010BA01 /* colorSplit.cpp in Sources */,
 				255716671E40CC41007195BB /* imageROI.cpp in Sources */,
 				255716641E401872007195BB /* colorReduce.cpp in Sources */,
