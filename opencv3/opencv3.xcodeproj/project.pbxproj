@@ -14,6 +14,7 @@
 		2557166A1E40DB65007195BB /* ROI_LinearBlending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255716681E40DB65007195BB /* ROI_LinearBlending.cpp */; };
 		25CCBC711E41645E0010BA01 /* colorSplit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25CCBC6F1E41645E0010BA01 /* colorSplit.cpp */; };
 		25CCBC741E44A1390010BA01 /* contrastAndBright.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25CCBC721E44A1390010BA01 /* contrastAndBright.cpp */; };
+		25CCBC7B1E4560430010BA01 /* imgproc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25CCBC791E4560430010BA01 /* imgproc.cpp */; };
 		25D0A1AD1E3E23CD007BC9BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0A1AC1E3E23CD007BC9BF /* main.cpp */; };
 		25D0A1C41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */; };
 		25D0A1C51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D0A1B51E3E245E007BC9BF /* libopencv_core.3.2.0.dylib */; };
@@ -67,6 +68,8 @@
 		25CCBC701E41645E0010BA01 /* colorSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorSplit.h; sourceTree = "<group>"; };
 		25CCBC721E44A1390010BA01 /* contrastAndBright.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contrastAndBright.cpp; sourceTree = "<group>"; };
 		25CCBC731E44A1390010BA01 /* contrastAndBright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contrastAndBright.h; sourceTree = "<group>"; };
+		25CCBC791E4560430010BA01 /* imgproc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgproc.cpp; sourceTree = "<group>"; };
+		25CCBC7A1E4560430010BA01 /* imgproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgproc.h; sourceTree = "<group>"; };
 		25D0A1A91E3E23CD007BC9BF /* opencv3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv3; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0A1AC1E3E23CD007BC9BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25D0A1B41E3E245E007BC9BF /* libopencv_imgproc.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.2.0.dylib; path = ../../../../../usrlocal/lib/libopencv_imgproc.3.2.0.dylib; sourceTree = "<group>"; };
@@ -150,6 +153,15 @@
 			name = 5;
 			sourceTree = "<group>";
 		};
+		25CCBC781E4560300010BA01 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				25CCBC791E4560430010BA01 /* imgproc.cpp */,
+				25CCBC7A1E4560430010BA01 /* imgproc.h */,
+			);
+			name = 6;
+			sourceTree = "<group>";
+		};
 		25D0A1A01E3E23CD007BC9BF = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +182,7 @@
 		25D0A1AB1E3E23CD007BC9BF /* opencv3 */ = {
 			isa = PBXGroup;
 			children = (
+				25CCBC781E4560300010BA01 /* 6 */,
 				255716611E401847007195BB /* 5 */,
 				2557165D1E3F683C007195BB /* 4 */,
 				25D0A1D51E3E299E007BC9BF /* 3 */,
@@ -285,6 +298,7 @@
 				25CCBC711E41645E0010BA01 /* colorSplit.cpp in Sources */,
 				255716671E40CC41007195BB /* imageROI.cpp in Sources */,
 				255716641E401872007195BB /* colorReduce.cpp in Sources */,
+				25CCBC7B1E4560430010BA01 /* imgproc.cpp in Sources */,
 				25CCBC741E44A1390010BA01 /* contrastAndBright.cpp in Sources */,
 				25D0A1D81E3E29D8007BC9BF /* createAlphaMat.cpp in Sources */,
 				255716601E3F68A3007195BB /* matFoundation.cpp in Sources */,

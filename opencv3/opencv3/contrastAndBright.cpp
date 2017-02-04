@@ -46,6 +46,7 @@ static void on_ContrastAndBright(int, void*)
             }
         }
     }
+    
     imshow("1234", g_srcImage);
     imshow("123", g_ndstImage);
 }

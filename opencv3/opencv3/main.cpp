@@ -18,6 +18,7 @@
 #include "ROI_LinearBlending.h"
 #include "colorSplit.h"
 #include "contrastAndBright.h"
+#include "imgproc.h"
 int main(int argc, const char * argv[]) {
-    contrastAndBright();
+    test();
 }
