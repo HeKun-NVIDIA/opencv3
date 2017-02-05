@@ -20,6 +20,7 @@
 #include "contrastAndBright.h"
 #include "imgproc.h"
 #include "imgproc2.h"
+#include "imgproc3.h"
 int main(int argc, const char * argv[]) {
-    imgproc2();
+    imgproc3();
 }
