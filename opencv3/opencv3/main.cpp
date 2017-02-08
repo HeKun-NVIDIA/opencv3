@@ -21,6 +21,9 @@
 #include "imgproc.h"
 #include "imgproc2.h"
 #include "imgproc3.h"
+#include "houghLinesDetect.h"
+#include "cornerDetect.h"
 int main(int argc, const char * argv[]) {
-    imgproc3();
+    //houghLinesDetect();
+    cornerDetect();
 }
